@@ -159,10 +159,10 @@ def playAgain():
                     exit = input("Press ENTER to exit...")
                     if exit == "":
                         quit()
-""" if ask("Do you want to see the rules?(y/n) "):
+if ask("Do you want to see the rules?(y/n) "):
     showRules()
 print("------------------------")
-wait(1) """
+wait(1)
 level = selectLevel()
 print("------------------------")
 playerChoose = play()
